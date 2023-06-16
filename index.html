@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- <link rel="stylesheet" href="./css/bootstrap.min.css" /> -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css" />
+        <link rel="stylesheet" href="./fontawesome-free-6.4.0-web/css/all.min.css" />
+        <link rel="stylesheet" href="./fontawesome-free-6.4.0-web/css/all.css" />
+    </head>
+    <body class="body">
+        <div id="search-menu">
+            <div class="wrapper">
+                <form id="form" action="#" method="">
+                        <button id="popup-search-button" type="submit" name="search">
+                            <i class="fa-solid fa-magnifying-glass"></i>                   
+                        </button>
+                        <input id="popup-search" type="text" name="u" placeholder="Search for a user" />
+                </form>
+            </div>
+        </div>
+        <div class="search" id="search-icon"><i class="fa-solid fa-magnifying-glass"></i></div>
+
+        <div class="collapse-button">
+            <i class="fa fa-light fa-bars"></i>
+        </div>
+
+        <header class="header">
+            <nav class="sidebar">
+                <a href="#" class="guild-logo-link">
+                    <img class="guild-logo-img" src="./index_images/mainLogo.png" />
+                </a>
+
+                <a href="#" class="guild-home-link">
+                    <div class="guild-home-div">
+                        GUILD
+                    </div>
+                </a>
+
+                <ul class="navbar-list">
+                    <li class="navbar-main nav-li" style="color: rgba(73,170,212,1);">
+                        <a href="#">მთავარი</a>
+                    </li>
+                    <li class="navbar-blog nav-li">
+                        <a href="#"><i class="fa fa-solid fa-chevron-down" id="navbar-blog-icon"></i> ბლოგი</a>
+                        <ul class="navbar-blog-ul">
+                            <li class="navbar-blog-li">
+                                <a href="#">2 player games</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="navbar-menu nav-li">
+                        <a href="#">მენიუ</a>
+                    </li>
+                    <li class="navbar-shop nav-li">
+                        <a href="#">მაღაზია</a>
+                    </li>
+                    <li class="navbar-guilds nav-li">
+                        <a href="#"><i class="fa fa-solid fa-chevron-down" id="navbar-guilds-icon"></i> გილდიები</a> <!-- <i class="fa-solid fa-chevron-down"></i> -->
+                        <ul class="navbar-guilds-ul">
+                            <li class="navbar-guilds-li">
+                                <a href="#">გილდიების სისტემა</a>
+                            </li>
+                            <li class="navbar-guilds-li">
+                                <a href="#">გილდია war</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="navbar-guild-quests nav-li">
+                        <a href="#">Guild Quests</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <section class="main-container">
+            <!--decorative picture section-->
+            <section class="decorative-picture-section">
+                <!-- <img class="decorative-picture-img" src="./index_images/cover.png" /> -->
+            </section>
+            <!--main content section-->
+            <section class="main-content">
+                <section class="manage-main-content-columns">
+                    <div class="content blog">
+                        <div class="content-header-container">
+                            <a href="#" class="content-header-link"><span class="content-header blog-header">ბლოგი</span></a>
+                        </div>
+                        <a href="#" class="">
+                            <img class="content-image blog-image" src="./index_images/news.jpg" />
+                        </a>
+                    </div>
+                    <div class="content guild-quests">
+                        <div class="content-header-container">
+                            <a href="#" class="content-header-link"><span class="content-header guild-quests-header">Guild Quests</span></a>
+                        </div>
+                        <a href="#" class="">
+                            <img class="content-image guild-quests-image" src="./index_images/guildQuests.png" />
+                        </a>
+                    </div>
+                </section>
+                <section class="manage-main-content-columns">
+                    <div class="content guilds">
+                        <div class="content-header-container">
+                            <a href="#" class="content-header-link"><span class="content-header guilds-header">გილდიები</span></a>
+                        </div>
+                        <a href="#" class="">
+                            <img class="content-image guilds-image" src="./index_images/guilds.png" />
+                        </a>
+                    </div>
+                    <div class="content">
+                        <div class="content-header-container">
+                            <a href="#" class="content-header-link"><span class="content-header shop-header">მაღაზია</span></a>
+                        </div>
+                        <a href="#" class="">
+                            <img class="content-image shop-image" src="./index_images/shop.png" />
+                        </a>
+                    </div>
+                </section>
+                <section class="manage-main-content-columns">
+                    <div class="content">
+                        <div class="content-header-container">
+                            <a href="#" class="content-header-link"><span class="content-header menu-header">მენიუ</span></a>
+                        </div>
+                        <a href="#" class="">
+                            <img class="content-image menu-image" src="./index_images/menu.png" />
+                        </a>
+                    </div>
+                    <div class="content">
+                        <div class="content-header-container">
+                            <a href="#" class="content-header-link"><span class="content-header partners-header">პარტნიორები</span></a>
+                        </div>
+                        <a href="#" class="">
+                            <img class="content-image partners-image" src="./index_images/partners.png" />
+                        </a>
+                    </div>
+                </section>
+                <section class="manage-contacts-content-columns">
+                    <div class="contacts">
+                        <ul class="contacts-list">
+                            <li class="contacts-list-item contacts-list-phone">
+                                <p class="contacts-list-text"><i class="fa-solid fa-phone" style="color: red;"></i> 599 98 67 85</p>
+                            </li>
+                            <li class="contacts-list-item contacts-list-address">
+                                <p class="contacts-list-text"><i class="fa-solid fa-location-dot" style="color: green;"></i> 1 გრიბოედოვის ქუჩა, თბილისი</p>
+                            </li>
+                            <li class="contacts-list-item contacts-list-email">
+                                <a class="contacts-list-link" href="#">
+                                    <p class="contacts-list-text"><i class="fa fa-solid fa-envelope" style="color: #000; padding-right: 3px;"></i>boardgamesguild@gmail.com</p>
+                                </a>
+                            </li>
+
+                            <br />
+
+                            <li class="contacts-list-item contacts-list-fb">
+                                <a class="contacts-list-link" href="#">
+                                    <p class="contacts-list-text"><i class="fa fa-solid fa-thumbtack" style="color: red; padding-right: 3px;"></i>facebook.com/GeoGuild</p>
+                                </a>
+                            </li>
+                            <li class="contacts-list-item contacts-list-tok">
+                                <a class="contacts-list-link" href="#">
+                                    <p class="contacts-list-text"><i class="fa fa-solid fa-thumbtack" style="color: red; padding-right: 3px;"></i>tiktok.com/@board_game_guild</p>
+                                </a>
+                            </li>
+                            <li class="contacts-list-item contacts-list-insta">
+                                <a class="contacts-list-link" href="#">
+                                    <p class="contacts-list-text"><i class="fa fa-solid fa-thumbtack" style="color: red; padding-right: 3px;"></i>instagram.com/boardgamesguild/</p>
+                                </a>
+                            </li>
+                            <li class="contacts-list-item contacts-list-yt">
+                                <a class="contacts-list-link" href="#">
+                                    <p class="contacts-list-text"><i class="fa fa-solid fa-thumbtack" style="color: red; padding-right: 3px;"></i>youtube.com/@boardgamesguild</p>
+                                </a>
+                            </li>
+                            <li class="contacts-list-item contacts-list-discord">
+                                <a class="contacts-list-link" href="#">
+                                    <p class="contacts-list-text"><i class="fa fa-solid fa-thumbtack" style="color: red; padding-right: 3px;"></i>discord.gg/RKafNR5uZQ</p>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="contacts contacts-map">
+                        <iframe src="https://maps-api-ssl.google.com/maps?hl=ka&ll=41.698849,44.796535&output=embed&q=1+Alexander+Griboedov+St,+T'bilisi,+Georgia+(1+Alexander+Griboedov+St)&z=19">
+
+                        </iframe>
+                    </div>
+                </section>
+            </section>
+
+            <!--footer-->
+
+            <footer class="">
+                <div class="social-media-links">
+                    <a class="fb-link social-media-link" href="#">
+                        <div class="fb-img social-media-img">
+                            <img src="./index_images/fb.png" width="44px" />
+                        </div>
+                    </a>
+                    <a class="ig-link social-media-link" href="#">
+                        <div class="ig-img social-media-img">
+                            <img src="./index_images/insta.png" width="44px" />
+                        </div>
+                    </a>
+                    <a class="tiktok-link social-media-link" href="#">
+                        <div class="tiktok-img social-media-img">
+                            <img src="./index_images/tok.png" width="44px" />
+                        </div>
+                    </a>
+                    <a class="yt-link social-media-link" href="#">
+                        <div class="yt-img social-media-img">
+                            <img src="./index_images/yt.png" width="44px" />
+                        </div>
+                    </a>
+                </div>
+            </footer>
+        </section>
+
+        <script src="./jquery-3.7.0.min.js"></script>
+        <script type = "text/javascript" src="./index.js"></script>
+    </body>
+</html>
